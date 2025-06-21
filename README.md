@@ -1,59 +1,68 @@
+# 🗒️ GoogleKeepAPP (not official)
 
-🗒️ GoogleKeepAPP (not official)
+A native **Windows desktop wrapper** for Google Keep.
 
+> ❗ **DISCLAIMER**  
+> This is an unofficial wrapper and is **not affiliated with or endorsed by Google**.  
+> It securely loads the [Google Keep](https://keep.google.com) web app in a lightweight native shell.
 
-A native Windows desktop wrapper for Google Keep.
-<img width="949" alt="image" src="https://github.com/user-attachments/assets/0858ae9f-af87-4666-ba4f-62352c931def" />
-![image](https://github.com/user-attachments/assets/db9c7142-79f2-44ce-8b49-8f404b593f5e)
+---
 
+## 🖼️ Screenshots
 
-🚨 DISCLAIMER:
-This is an unofficial wrapper and is not affiliated with or endorsed by Google. It simply loads the Google Keep website inside a Windows-native application.
+<img src="https://github.com/user-attachments/assets/0858ae9f-af87-4666-ba4f-62352c931def" width="700" />
+<img src="https://github.com/user-attachments/assets/db9c7142-79f2-44ce-8b49-8f404b593f5e" width="700" />
 
---------------------
-📦 FEATURES
---------------------
-- Native Windows experience
-- Logout button (clears session and cookies)
-- System tray integration:
-    • Right-click tray icon → Show App, Logout, Exit
-- Auto-start with Windows login (registry-based)
-- Always-on-top support
-- Fast launch, no browser required
-- Clean UI with webview
+---
 
------------------------------
-📥 DOWNLOAD & INSTALLATION
------------------------------
-🔽 **Download Installer**  
-👉 [GoogleKeepApp.unofficial.msi](https://github.com/Tanay2920003/GoogleKeepApp-unofficial-/releases/download/1.0/GoogleKeepApp.unofficial.msi)
+## 📦 Features
 
-1. Download the `.msi` from the link above.
-2. Run the installer.
-3. App installs to:  
+- 🪟 Native Windows app experience
+- 🔒 Logout button (clears cookies & session)
+- 🧲 System tray integration  
+  - Right-click → Show App, Logout, Exit
+- 🚀 Auto-start on Windows login (Registry)
+- 📌 Always-on-top window option
+- ⚡ Lightweight and fast – no browser needed
+- 🎯 Clean UI with embedded webview
+
+---
+
+## 📥 Download & Installation
+
+🔽 **Download the Installer:**  
+[👉 GoogleKeepApp.unofficial.msi](https://github.com/Tanay2920003/GoogleKeepApp-unofficial-/releases/download/1.0/GoogleKeepApp.unofficial.msi)
+
+### Installation Steps:
+1. Download the `.msi` file above.
+2. Double-click to run and install.
+3. App will be installed to:  
    `C:\Program Files\GoogleKeepAPP(notofficial)`
-4. Auto-starts with Windows (disable via registry if needed).
-5. Access from Desktop or Start Menu.
+4. Launch from Start Menu or Desktop.
+5. It auto-starts on login (you can disable via registry if needed).
 
-To uninstall:
-- Use Windows "Add or Remove Programs", or
-- Run `unins000.exe` inside the installation folder.
+🧹 To uninstall:  
+- Use *"Add or Remove Programs"* in Windows  
+- Or run `unins000.exe` from the install directory
 
----------------------------
-📺 DEMO VIDEO
----------------------------
-▶️ YouTube:  
-https://youtu.be/1wp718yzn3M
+---
 
-(Embedded on GitHub page as applicable)
+## 📺 Demo Video
 
----------------------------
-🛡️ VIRUS SCAN REPORT
----------------------------
-✔ Scanned on VirusTotal:  
-https://www.virustotal.com/gui/file/ffff74e0fbd7a507ea21f18e08c5cd0222ede382e6ba0ba1820a5252034b9fda/detection
+[![YouTube Demo](https://img.youtube.com/vi/1wp718yzn3M/0.jpg)](https://youtu.be/1wp718yzn3M)
 
-----------------------
-🛠 DEVELOPED USING FLUTTER
-----------------------
+Watch how it works on YouTube.
+
+---
+
+## 🛡️ Virus Scan Report
+
+✅ Verified on [VirusTotal](https://www.virustotal.com/gui/file/ffff74e0fbd7a507ea21f18e08c5cd0222ede382e6ba0ba1820a5252034b9fda/detection)
+
+---
+
+## 🛠 Developed Using Flutter
+
+This app is built using [Flutter for Windows](https://docs.flutter.dev/platform-integration/windows).
+
 
