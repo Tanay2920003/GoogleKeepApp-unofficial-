@@ -51,12 +51,6 @@ https://youtu.be/1wp718yzn3M
 https://www.virustotal.com/gui/file/ffff74e0fbd7a507ea21f18e08c5cd0222ede382e6ba0ba1820a5252034b9fda/detection
 
 ----------------------
-🛠 FOR DEVELOPERS
+🛠 DEVELOPED USING FLUTTER
 ----------------------
-Build it yourself (Flutter):
 
-```bash
-git clone https://github.com/Tanay2920003/googlekeepapp.git
-cd googlekeepapp
-flutter pub get
-flutter build windows
