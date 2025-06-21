@@ -1,6 +1,6 @@
-==============================
+
 🗒️ GoogleKeepAPP (not official)
-==============================
+
 
 A native Windows desktop wrapper for Google Keep.
 
