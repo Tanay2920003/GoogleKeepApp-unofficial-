@@ -3,6 +3,9 @@
 
 
 A native Windows desktop wrapper for Google Keep.
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/0858ae9f-af87-4666-ba4f-62352c931def" />
+![image](https://github.com/user-attachments/assets/db9c7142-79f2-44ce-8b49-8f404b593f5e)
+
 
 🚨 DISCLAIMER:
 This is an unofficial wrapper and is not affiliated with or endorsed by Google. It simply loads the Google Keep website inside a Windows-native application.
