@@ -5,73 +5,58 @@
 A native Windows desktop wrapper for Google Keep.
 
 🚨 DISCLAIMER:
-This is an unofficial wrapper and is not affiliated with or endorsed by Google. It simply uses the Google Keep website inside a native Windows application.
+This is an unofficial wrapper and is not affiliated with or endorsed by Google. It simply loads the Google Keep website inside a Windows-native application.
 
 --------------------
 📦 FEATURES
 --------------------
 - Native Windows experience
-- Secure logout (clears cookies and cache)
-- System tray integration (Right-click: Show App, Logout, Exit)
-- Automatically starts with Windows (optional via registry)
-- Always-on-top window support
-- Smooth and fast: no need for browser
-- Lightweight and clean design
+- Logout button (clears session and cookies)
+- System tray integration:
+    • Right-click tray icon → Show App, Logout, Exit
+- Auto-start with Windows login (registry-based)
+- Always-on-top support
+- Fast launch, no browser required
+- Clean UI with webview
 
 -----------------------------
 📥 DOWNLOAD & INSTALLATION
 -----------------------------
-🔽 **Download the Installer**  
+🔽 **Download Installer**  
 👉 [GoogleKeepApp.unofficial.msi](https://github.com/Tanay2920003/GoogleKeepApp-unofficial-/releases/download/1.0/GoogleKeepApp.unofficial.msi)
 
-1. Click the link above to download the `.msi` installer.
-2. Run the installer and follow the setup steps.
-3. The app will:
-   - Appear in Start Menu and Desktop (if selected)
-   - Auto-start with Windows
-   - Minimize to system tray when closed
+1. Download the `.msi` from the link above.
+2. Run the installer.
+3. App installs to:  
+   `C:\Program Files\GoogleKeepAPP(notofficial)`
+4. Auto-starts with Windows (disable via registry if needed).
+5. Access from Desktop or Start Menu.
 
-4. To uninstall:
-   - Go to Control Panel → Add or Remove Programs
-   - Or run:  
-     C:\Program Files\GoogleKeepAPP(notofficial)\unins000.exe
+To uninstall:
+- Use Windows "Add or Remove Programs", or
+- Run `unins000.exe` inside the installation folder.
 
 ---------------------------
-🛡️ SAFETY & VIRUS SCAN
+📺 DEMO VIDEO
 ---------------------------
-✔ VirusTotal Scan (Clean):  
+▶️ YouTube:  
+https://youtu.be/1wp718yzn3M
+
+(Embedded on GitHub page as applicable)
+
+---------------------------
+🛡️ VIRUS SCAN REPORT
+---------------------------
+✔ Scanned on VirusTotal:  
 https://www.virustotal.com/gui/file/ffff74e0fbd7a507ea21f18e08c5cd0222ede382e6ba0ba1820a5252034b9fda/detection
 
 ----------------------
 🛠 FOR DEVELOPERS
 ----------------------
-Manual Build (Flutter):
+Build it yourself (Flutter):
 
-1. Clone:
-   git clone https://github.com/Tanay2920003/googlekeepapp.git
-   cd googlekeepapp
-
-2. Build:
-   flutter build windows
-
-3. Run:
-   build\windows\runner\Release\googlekeepapp.exe
-
------------------------
-📸 SCREENSHOTS (ADD)
------------------------
-(Insert screenshots of main window, tray menu, logout button here)
-
-----------------------
-👤 AUTHOR INFORMATION
-----------------------
-Author: Tanay  
-GitHub: https://github.com/Tanay2920003  
-Project: https://github.com/Tanay2920003/googlekeepapp
-
-----------------------
-📜 LICENSE
-----------------------
-MIT License  
-You are free to use, modify, and distribute this app with proper attribution.
-
+```bash
+git clone https://github.com/Tanay2920003/googlekeepapp.git
+cd googlekeepapp
+flutter pub get
+flutter build windows
