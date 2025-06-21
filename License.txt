@@ -1,0 +1,17 @@
+GoogleKeepAPP (Unofficial)
+Copyright (c) 2025 Tanay2920003
+
+This software is provided "as-is" for personal, non-commercial use only.
+
+You are NOT allowed to:
+- Modify, reverse engineer, or distribute this software.
+- Use it in any commercial or enterprise environment.
+- Claim ownership or re-upload the application.
+
+You ARE allowed to:
+- Use the app on your own Windows machine.
+- Share the original GitHub link to this project.
+
+This project is not affiliated with Google. All trademarks are property of their respective owners.
+
+Contact: tanay2920003@gmail.com
