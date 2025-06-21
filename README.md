@@ -51,7 +51,7 @@ A native **Windows desktop wrapper** for Google Keep.
 
 [![YouTube Demo](https://img.youtube.com/vi/1wp718yzn3M/0.jpg)](https://youtu.be/1wp718yzn3M)
 
-Watch how it works on YouTube.
+Watch how it works on YouTube. click the video to play
 
 ---
 
